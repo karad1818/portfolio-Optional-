@@ -181,6 +181,7 @@ i{
 	place-items:center;
 }
 .cardx{
+	font-size: 1.5rem;
 	margin:50px auto;
 	display: grid;
 	grid-template-rows: 1fr 1fr;
@@ -194,6 +195,7 @@ i{
 	border:1px solid white;
 	border-radius: 10px;
 	text-align: center;
+	padding-bottom: 10px;
 }
 .code > img{
 	width:40%;
@@ -253,6 +255,19 @@ p a:hover{
 	.header{
 		font-size: 1.1rem;
 	}
-	
-	
+}
+@media all and (max-width: 450px){
+	html,body{
+		font-size: 12px;
+	}
+}
+@media all and (max-width: 340px){
+	html,body{
+		font-size: 10px;
+	}
+}
+@media all and (max-width: 280px){
+	html,body{
+		font-size: 9px;
+	}
 }
