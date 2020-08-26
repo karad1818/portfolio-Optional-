@@ -271,3 +271,12 @@ p a:hover{
 		font-size: 9px;
 	}
 }
+@media all and (max-width:240px){
+	html,body{
+		font-size: 8px;
+	}
+	#myphoto{
+		width:200px;
+		height:150px;
+	}
+}
